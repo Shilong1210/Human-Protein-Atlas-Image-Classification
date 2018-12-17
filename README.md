@@ -1,2 +1,7 @@
 # Human-Protein-Atlas-Image-Classification
 Model for Kaggle competition: Human Protein Atlas Image Classification
+# Abstract
+## Motivation
+Providing the confocal microscopy image, we are able to see deep inside human cells and their organelles. In order to better understand the function of cell, the best way is to determine the distribution pattern of protein. Therefore, it is a hot topic in the research field to develop models that are able to classify the mixed patterns of proteins in cells, which is the main task of our project.
+## Results
+Based on kernels from Kaggle, we are able to construct a protein atlas image classifier with data generator, train-ing and validation splitter, neural network and threshold generator. Our model gives a prediction with the best score of 0.422.
